@@ -3,6 +3,7 @@
   min-width: 178px;
   display: flex;
   flex-direction: column-reverse;
+  margin-bottom: 30px;
   @media screen and (min-width: 950px) {
     width: calc((100% - 48px) / 3);
   }
