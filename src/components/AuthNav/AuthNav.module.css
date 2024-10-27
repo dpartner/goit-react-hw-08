@@ -1,0 +1,11 @@
+.link {
+  color: purple;
+  font-weight: 700;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.active {
+  text-decoration: underline;
+}
